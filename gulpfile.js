@@ -9,7 +9,7 @@ gulp.task('css',function() {
 });
 
 gulp.task('email', ['css'],function() {
-  return gulp.src('./**/*.jade')
+  return gulp.src('./templates/*.jade')
     .pipe($.jade({pretty:true}))
     .pipe(gulp.dest('./build'))
     .pipe($.juice())
