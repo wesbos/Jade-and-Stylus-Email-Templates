@@ -5,3 +5,9 @@ A quick gulp script to compile `jade` → `html`, `stylus` → `css` and then in
 
 ![](http://wes.io/gAI3/content)
 
+## How to use
+
+First run `npm install`
+
+Then run `gulp` to compile `styles.styl` and `testing.jade` and then inline them.
+
