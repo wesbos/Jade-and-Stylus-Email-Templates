@@ -9,8 +9,8 @@ gulp.task('css',function() {
 });
 
 gulp.task('email', ['css'],function() {
-  return gulp.src('./templates/*.jade')
-    .pipe($.jade({pretty:true}))
+  return gulp.src('./templates/*.pug')
+    .pipe($.pug({pretty:true}))
     .pipe(gulp.dest('./build'))
     .pipe($.juice())
     .pipe(gulp.dest('./build'))

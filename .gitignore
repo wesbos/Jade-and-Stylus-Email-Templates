@@ -1,3 +1,6 @@
 build/
 node_modules/
 *.log
+
+# Unsure whether we should track the lock file for this project.
+yarn.lock
